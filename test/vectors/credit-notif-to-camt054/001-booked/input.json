@@ -1,0 +1,14 @@
+{
+  "notificationId": "NTFCTN-001",
+  "creationDateTime": "2026-04-15T11:00:00Z",
+  "recipientName": "John Smith",
+  "recipientAccount": { "iban": "GB29NWBK60161331926819" },
+  "amount": "100.00",
+  "currency": "GBP",
+  "bookingDate": "2026-04-15",
+  "valueDate": "2026-04-15",
+  "status": "BOOK",
+  "endToEndId": "E2E-001",
+  "debtorName": "Jane Doe",
+  "remittanceInfo": "INV-12345"
+}

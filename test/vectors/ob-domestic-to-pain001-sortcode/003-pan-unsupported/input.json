@@ -1,0 +1,17 @@
+{
+  "Data": {
+    "Initiation": {
+      "InstructionIdentification": "SC-003",
+      "EndToEndIdentification": "SC-E2E-003",
+      "InstructedAmount": { "Amount": "75.00", "Currency": "GBP" },
+      "CreditorAccount": {
+        "SchemeName": "UK.OBIE.PAN",
+        "Identification": "4111111111111111",
+        "Name": "Card Payee"
+      }
+    },
+    "DebtorName": "Test",
+    "CreationDateTime": "2026-04-15T15:00:00Z"
+  },
+  "Risk": {}
+}

@@ -1,0 +1,11 @@
+{
+  "originalMessageId": "msg-006",
+  "status": {
+    "Data": {
+      "DomesticPaymentId": "PAY-006",
+      "Status": "AcceptedWithoutPosting",
+      "StatusUpdateDateTime": "2026-04-15T10:34:00Z",
+      "CreationDateTime": "2026-04-15T10:30:00Z"
+    }
+  }
+}

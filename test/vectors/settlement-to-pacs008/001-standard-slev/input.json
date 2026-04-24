@@ -1,0 +1,16 @@
+{
+  "messageId": "PACS-001",
+  "originalMessageId": "msg-001",
+  "settlementAmount": "100.00",
+  "settlementCurrency": "GBP",
+  "settlementDate": "2026-04-15",
+  "instructionId": "INSTR-001",
+  "endToEndId": "E2E-001",
+  "debtorName": "John Smith",
+  "debtorAccount": { "iban": "GB29NWBK60161331926819" },
+  "debtorAgentBIC": "NWBKGB2L",
+  "creditorName": "Jane Doe",
+  "creditorAccount": { "iban": "GB82WEST12345698765432" },
+  "creditorAgentBIC": "BAGLGB22",
+  "chargeBearer": "SLEV"
+}

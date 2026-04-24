@@ -1,0 +1,22 @@
+{
+  "Data": {
+    "Initiation": {
+      "InstructionIdentification": "SC-001",
+      "EndToEndIdentification": "SC-E2E-001",
+      "InstructedAmount": { "Amount": "150.00", "Currency": "GBP" },
+      "DebtorAccount": {
+        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+        "Identification": "20-00-00/55779911",
+        "Name": "Sort Code Debtor"
+      },
+      "CreditorAccount": {
+        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+        "Identification": "30-91-99/12345678",
+        "Name": "Sort Code Creditor"
+      }
+    },
+    "DebtorName": "Sort Code Debtor",
+    "CreationDateTime": "2026-04-15T14:00:00Z"
+  },
+  "Risk": {}
+}

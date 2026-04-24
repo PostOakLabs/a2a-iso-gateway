@@ -1,0 +1,15 @@
+{
+  "originalMessageId": "msg-003",
+  "status": {
+    "Data": {
+      "DomesticPaymentId": "PAY-003",
+      "Status": "Rejected",
+      "StatusUpdateDateTime": "2026-04-15T10:32:00Z",
+      "CreationDateTime": "2026-04-15T10:30:00Z",
+      "StatusReason": {
+        "StatusReasonCode": "AM04",
+        "StatusReasonDescription": "InsufficientFunds — account balance is insufficient"
+      }
+    }
+  }
+}

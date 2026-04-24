@@ -1,0 +1,17 @@
+{
+  "Data": {
+    "Initiation": {
+      "InstructionIdentification": "INSTR-002",
+      "EndToEndIdentification": "E2E-002",
+      "InstructedAmount": { "Amount": "250.50", "Currency": "GBP" },
+      "CreditorAccount": {
+        "SchemeName": "UK.OBIE.IBAN",
+        "Identification": "GB82WEST12345698765432",
+        "Name": "ACME Corp"
+      },
+      "RemittanceInformation": { "Unstructured": "Payment for services rendered" }
+    },
+    "CreationDateTime": "2026-04-15T11:00:00Z"
+  },
+  "Risk": { "PaymentContextCode": "PartyToParty" }
+}

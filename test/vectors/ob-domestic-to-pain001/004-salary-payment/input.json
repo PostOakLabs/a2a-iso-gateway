@@ -1,0 +1,23 @@
+{
+  "Data": {
+    "Initiation": {
+      "InstructionIdentification": "INSTR-004",
+      "EndToEndIdentification": "E2E-004",
+      "InstructedAmount": { "Amount": "3250.00", "Currency": "GBP" },
+      "DebtorAccount": {
+        "SchemeName": "UK.OBIE.IBAN",
+        "Identification": "GB29NWBK60161331926819",
+        "Name": "Employer Ltd"
+      },
+      "CreditorAccount": {
+        "SchemeName": "UK.OBIE.IBAN",
+        "Identification": "GB82WEST12345698765432",
+        "Name": "Employee Name"
+      },
+      "RemittanceInformation": { "Reference": "SALARY-APR-2026" }
+    },
+    "DebtorName": "Employer Ltd",
+    "CreationDateTime": "2026-04-30T09:00:00Z"
+  },
+  "Risk": { "PaymentContextCode": "PartyToParty" }
+}

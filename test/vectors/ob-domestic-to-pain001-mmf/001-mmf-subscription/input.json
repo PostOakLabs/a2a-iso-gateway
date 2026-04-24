@@ -1,0 +1,25 @@
+{
+  "Data": {
+    "Initiation": {
+      "InstructionIdentification": "MMF-001",
+      "EndToEndIdentification": "MMF-E2E-001",
+      "InstructedAmount": { "Amount": "10000.00", "Currency": "GBP" },
+      "CreditorAccount": {
+        "SchemeName": "UK.OBIE.IBAN",
+        "Identification": "GB29NWBK60161331926819",
+        "Name": "MMF Custodian"
+      },
+      "SupplementaryData": {
+        "TokenizedMMFMetadata": {
+          "fundIdentifier": "GB00B3FLYX16",
+          "fundName": "GBP Money Market Fund",
+          "onChainWalletAddress": "0xAbCd1234",
+          "blockchainNetwork": "ethereum"
+        }
+      }
+    },
+    "DebtorName": "Investor A",
+    "CreationDateTime": "2026-04-15T09:00:00Z"
+  },
+  "Risk": {}
+}

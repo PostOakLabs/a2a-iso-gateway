@@ -1,0 +1,11 @@
+{
+  "paymentId": "FDX-003",
+  "paymentAmount": "100.00",
+  "paymentCurrency": "USD",
+  "creditorAccount": {
+    "accountId": "333333333"
+  },
+  "creditorName": "No Routing Corp",
+  "debtorName": "Test Payer",
+  "creationDateTime": "2026-04-15T16:00:00Z"
+}

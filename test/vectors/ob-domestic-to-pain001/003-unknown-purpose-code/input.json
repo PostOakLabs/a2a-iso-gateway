@@ -1,0 +1,17 @@
+{
+  "Data": {
+    "Initiation": {
+      "InstructionIdentification": "INSTR-003",
+      "EndToEndIdentification": "E2E-003",
+      "InstructedAmount": { "Amount": "500.00", "Currency": "GBP" },
+      "CreditorAccount": {
+        "SchemeName": "UK.OBIE.IBAN",
+        "Identification": "GB29NWBK60161331926819",
+        "Name": "Unknown Payee"
+      }
+    },
+    "DebtorName": "Alice",
+    "CreationDateTime": "2026-04-15T12:00:00Z"
+  },
+  "Risk": {}
+}

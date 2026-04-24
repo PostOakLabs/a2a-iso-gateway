@@ -1,0 +1,23 @@
+{
+  "Data": {
+    "Initiation": {
+      "InstructionIdentification": "INSTR-001",
+      "EndToEndIdentification": "E2E-001",
+      "InstructedAmount": { "Amount": "100.00", "Currency": "GBP" },
+      "DebtorAccount": {
+        "SchemeName": "UK.OBIE.IBAN",
+        "Identification": "GB29NWBK60161331926819",
+        "Name": "John Smith"
+      },
+      "CreditorAccount": {
+        "SchemeName": "UK.OBIE.IBAN",
+        "Identification": "GB82WEST12345698765432",
+        "Name": "Jane Doe"
+      },
+      "RemittanceInformation": { "Reference": "INV-12345" }
+    },
+    "DebtorName": "John Smith",
+    "CreationDateTime": "2026-04-15T10:30:00Z"
+  },
+  "Risk": {}
+}

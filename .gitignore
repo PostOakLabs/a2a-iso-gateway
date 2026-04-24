@@ -1,0 +1,8 @@
+node_modules/
+dist/
+coverage/
+*.js.map
+.env
+.DS_Store
+sandbox/message-inspector/node_modules/
+sandbox/message-inspector/dist/

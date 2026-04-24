@@ -1,0 +1,17 @@
+{
+  "Data": {
+    "Initiation": {
+      "InstructionIdentification": "INSTR-005",
+      "EndToEndIdentification": "E2E-005",
+      "InstructedAmount": { "Amount": "1234.56789", "Currency": "GBP" },
+      "CreditorAccount": {
+        "SchemeName": "UK.OBIE.IBAN",
+        "Identification": "GB82WEST12345698765432",
+        "Name": "Precision Test"
+      }
+    },
+    "DebtorName": "Bob",
+    "CreationDateTime": "2026-04-15T13:00:00Z"
+  },
+  "Risk": {}
+}

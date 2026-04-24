@@ -1,0 +1,12 @@
+{
+  "messageId": "PACS-002",
+  "originalMessageId": "msg-002",
+  "settlementAmount": "5000.00",
+  "settlementCurrency": "GBP",
+  "settlementDate": "2026-04-15",
+  "instructionId": "INSTR-002",
+  "endToEndId": "E2E-002",
+  "debtorAgentBIC": "BARCGB22",
+  "creditorAgentBIC": "LOYDGB21",
+  "chargeBearer": "DEBT"
+}

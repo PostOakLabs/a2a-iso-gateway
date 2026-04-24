@@ -1,0 +1,19 @@
+{
+  "paymentId": "FDX-002",
+  "paymentAmount": "50000.00",
+  "paymentCurrency": "USD",
+  "debtorAccount": {
+    "accountId": "111111111",
+    "routingTransitNumber": "021000021",
+    "accountType": "CHECKING"
+  },
+  "creditorAccount": {
+    "accountId": "222222222",
+    "routingTransitNumber": "026009593",
+    "accountType": "CHECKING"
+  },
+  "creditorName": "Big Corp",
+  "debtorName": "Small Corp",
+  "sameDayFlag": true,
+  "creationDateTime": "2026-04-15T08:00:00Z"
+}

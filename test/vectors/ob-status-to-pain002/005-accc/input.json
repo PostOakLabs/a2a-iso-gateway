@@ -1,0 +1,11 @@
+{
+  "originalMessageId": "msg-005",
+  "status": {
+    "Data": {
+      "DomesticPaymentId": "PAY-005",
+      "Status": "AcceptedCreditSettlementCompleted",
+      "StatusUpdateDateTime": "2026-04-15T10:36:00Z",
+      "CreationDateTime": "2026-04-15T10:30:00Z"
+    }
+  }
+}

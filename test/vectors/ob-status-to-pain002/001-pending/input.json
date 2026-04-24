@@ -1,0 +1,12 @@
+{
+  "originalMessageId": "msg-001",
+  "status": {
+    "Data": {
+      "DomesticPaymentId": "PAY-001",
+      "Status": "Pending",
+      "StatusUpdateDateTime": "2026-04-15T10:31:00Z",
+      "CreationDateTime": "2026-04-15T10:30:00Z"
+    },
+    "Links": { "Self": "https://api.example.com/domestic-payments/PAY-001" }
+  }
+}

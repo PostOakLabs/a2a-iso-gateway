@@ -1,0 +1,11 @@
+{
+  "notificationId": "NTFCTN-002",
+  "creationDateTime": "2026-04-15T11:01:00Z",
+  "recipientAccount": { "bban": "20000055779911" },
+  "amount": "250.00",
+  "currency": "GBP",
+  "bookingDate": "2026-04-16",
+  "valueDate": "2026-04-16",
+  "status": "PDNG",
+  "endToEndId": "E2E-002"
+}

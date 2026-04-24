@@ -1,0 +1,66 @@
+{
+  "name": "a2a-iso-gateway",
+  "version": "0.1.0",
+  "description": "Translate Open Banking A2A payment events into ISO 20022 MX messages (pain.001, pacs.008, pain.002, camt.054)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src test --ext .ts",
+    "lint:fix": "eslint src test --ext .ts --fix",
+    "sandbox:server": "ts-node sandbox/mock-server/index.ts",
+    "sandbox:ui": "cd sandbox/message-inspector && npm run dev",
+    "prepublishOnly": "npm run lint && npm run build && npm run test"
+  },
+  "keywords": [
+    "iso20022",
+    "open-banking",
+    "a2a",
+    "payment",
+    "pain001",
+    "pacs008",
+    "fdx",
+    "fintech",
+    "obie"
+  ],
+  "author": "PostOakLabs",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PostOakLabs/a2a-iso-gateway.git"
+  },
+  "homepage": "https://github.com/PostOakLabs/a2a-iso-gateway#readme",
+  "bugs": {
+    "url": "https://github.com/PostOakLabs/a2a-iso-gateway/issues"
+  },
+  "dependencies": {
+    "xmlbuilder2": "^3.1.1",
+    "fast-xml-parser": "^4.3.6",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.0",
+    "@types/uuid": "^9.0.8",
+    "@types/express": "^4.17.21",
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/parser": "^7.13.0",
+    "eslint": "^8.57.0",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

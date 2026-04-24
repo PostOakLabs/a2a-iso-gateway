@@ -1,0 +1,21 @@
+{
+  "originalMessageId": "msg-002",
+  "status": {
+    "Data": {
+      "DomesticPaymentId": "PAY-002",
+      "Status": "AcceptedSettlementCompleted",
+      "StatusUpdateDateTime": "2026-04-15T10:35:00Z",
+      "CreationDateTime": "2026-04-15T10:30:00Z",
+      "Initiation": {
+        "InstructionIdentification": "INSTR-002",
+        "EndToEndIdentification": "E2E-002",
+        "InstructedAmount": { "Amount": "100.00", "Currency": "GBP" },
+        "CreditorAccount": {
+          "SchemeName": "UK.OBIE.IBAN",
+          "Identification": "GB82WEST12345698765432",
+          "Name": "Jane Doe"
+        }
+      }
+    }
+  }
+}
