@@ -128,13 +128,13 @@ console.log(result.tokenizationInstruction);
 // → { instructionId, fundIdentifier, subscriptionAmount, linkedISO20022MessageId, ... }
 ```
 
-See [docs/tokenized-mmf-extension.md](docs/tokenized-mmf-extension.md) for the full integration guide with `iso20022-token-bridge`.
+See [docs/tokenized-mmf-extension.md](docs/tokenized-mmf-extension.md) for the full integration guide.
 
 ---
 
 ## Test Vectors
 
-50+ paired input/output test cases live in `test/vectors/`. Each folder contains `input.json` and `mapping-notes.md` explaining every non-obvious field mapping decision.
+`test/vectors/` holds 22 realistic input messages across 7 mapping suites (OB domestic payments, FDX, payment status, settlement, credit notification, MMF, sort-code variants). These are input fixtures only — expected outputs are asserted by the 58 unit tests in `test/unit/` (24 enrichment + 34 translator cases), which do not read the vectors directory. Per-suite `mapping-notes.md` files and paired expected-output vectors are planned contributions; PRs welcome.
 
 ```bash
 npm test              # run all tests
@@ -156,6 +156,8 @@ cd sandbox/message-inspector && npm install && npm run dev
 ```
 
 Then open http://localhost:5173 and POST to `http://localhost:3000/webhooks/payment-created`.
+
+Runnable end-to-end scripts live in [`examples/`](examples/): `fdx-payment.ts`, `ob-domestic-payment.ts`, and `mmf-subscription.ts`. Field-level mapping guidance (including the FDX profile) is in [`docs/fdx-mapping-guide.md`](docs/fdx-mapping-guide.md).
 
 ---
 
